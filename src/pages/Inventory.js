@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './Inventory.css';  // Add CSS for styling
+import './Inventory.css';
 
 function Inventory() {
   const [cars, setCars] = useState([]);
@@ -21,7 +21,7 @@ function Inventory() {
             {car.imageUrls.length > 0 ? (
               <img src={car.imageUrls[0]} alt={`${car.make} ${car.model}`} className="car-image" />
             ) : (
-              <img src="/placeholder-image.png" alt="No Image Available" className="car-image" />  // Placeholder image
+              <img src="/placeholder-image.png" alt="Placeholder" className="car-image" />
             )}
             <div className="car-info">
               <h2>{car.make} {car.model}</h2>

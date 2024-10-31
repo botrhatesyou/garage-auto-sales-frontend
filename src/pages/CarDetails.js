@@ -42,12 +42,12 @@ function CarDetails() {
             >
               {car.imageUrls.map((url, index) => (
                 <div key={index}>
-                  <img src={url} alt={`${car.make} ${car.model} ${index}`} />
+                  <img src={url} alt={`${car.make} ${car.model}`} />
                 </div>
               ))}
             </Carousel>
           ) : (
-            <img src="/placeholder-image.png" alt="No Image Available" className="car-placeholder" />
+            <img src="/placeholder-image.png" alt="Placeholder" className="car-placeholder" />
           )}
         </div>
 

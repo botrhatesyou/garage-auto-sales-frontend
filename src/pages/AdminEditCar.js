@@ -121,7 +121,7 @@ function AdminEditCar() {
             {formData.imageUrls.length > 0 ? (
               formData.imageUrls.map((url, index) => (
                 <div key={index} className="preview-item">
-                  <img src={url} alt={`Car image ${index}`} width="100" />
+                  <img src={url} alt={`Car ${index}`} width="100" />
                   <button type="button" className="danger-button" onClick={() => handleExistingImageDelete(url)}>Delete</button>
                 </div>
               ))
