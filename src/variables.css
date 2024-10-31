@@ -1,0 +1,10 @@
+/* variables.css */
+
+:root {
+  --primary-blue: #1e3a8a;   /* Deep blue */
+  --dark-blue: #0f172a;      /* Darker blue */
+  --light-gray: #e2e8f0;     /* Light blue-gray */
+  --medium-gray: #475569;    /* Medium gray */
+  --dark-gray: #1e293b;      /* Dark gray */
+  --white: #ffffff;          /* White */
+}

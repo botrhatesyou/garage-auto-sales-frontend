@@ -1,0 +1,124 @@
+/* AdminPanel.css */
+
+.admin-panel {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.primary-button,
+.secondary-button,
+.danger-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.primary-button {
+  background-color: #1e3a8a;
+  color: white;
+  margin-top: 10px;
+}
+
+.primary-button:hover {
+  background-color: #0f172a;
+}
+
+.danger-button {
+  background-color: #e63946;
+  color: white;
+  margin-top: 5px;
+}
+
+.danger-button:hover {
+  background-color: #c53030;
+}
+
+.image-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.preview-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.preview-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #f4f4f4; /* Placeholder color if image doesn't load */
+}
+
+.preview-item span {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #666;
+}
+
+.preview-item button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #e63946;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.preview-item button:hover {
+  background-color: #ffebeb;
+}

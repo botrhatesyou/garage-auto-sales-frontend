@@ -1,0 +1,108 @@
+/* Admin Dashboard Styling */
+.admin-dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header section for the dashboard */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-header h1 {
+  color: #1e3a8a; /* Primary blue color */
+  font-size: 24px;
+  margin: 0;
+}
+
+.admin-header .add-car-button {
+  background-color: #1e3a8a;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.admin-header .add-car-button:hover {
+  background-color: #0f172a;
+}
+
+/* Car list layout */
+.car-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+/* Individual car card styling */
+.car-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Car details text */
+.car-details h3 {
+  color: #1e3a8a;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.car-details p {
+  color: #475569;
+  font-size: 14px;
+}
+
+/* Button group for Edit and Delete actions */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.button-group button {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Edit button styling */
+.button-group .edit-button {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.button-group .edit-button:hover {
+  background-color: #0f172a;
+}
+
+/* Delete button styling */
+.button-group .delete-button {
+  background-color: #e63946;
+  color: #ffffff;
+}
+
+.button-group .delete-button:hover {
+  background-color: #c53030;
+}
